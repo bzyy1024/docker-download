@@ -1,19 +1,8 @@
 # Docker 镜像下载服务 / Docker Downloader
 
-一个简单可靠的 Docker 镜像离线下载与分发服务，解决在中国大陆网络环境下拉取镜像困难的问题。支持自定义仓库、可选认证、并发控制、去重下载，以及前端可视化管理。
+## 部署地址
 
-English version: [README.en.md](README.en.md)
-
-**公共镜像**: `bzyy2020/docker-downloader`
-
-```bash
-docker pull bzyy2020/docker-downloader:latest
-docker run --rm -t --name docker-downloader \
-  -p 8080:8080 \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -v $(pwd)/images:/app/images \
-  bzyy2020/docker-downloader:latest
-```
+服务已部署在 [docker-mirror.thinkmeta.site](http://docker-mirror.thinkmeta.site)。您可以访问该地址高效下载 Docker 镜像，即使在受限的网络环境中也能顺畅使用。
 
 ---
 

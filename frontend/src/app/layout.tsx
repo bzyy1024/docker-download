@@ -4,8 +4,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { TopBar } from "@/components/top-bar";
 
 export const metadata: Metadata = {
-  title: "Docker Image Downloader",
-  description: "Download docker images easily",
+  title: "Docker Image Downloader - Fast & Reliable",
+  description:
+    "Effortlessly download Docker images from custom registries, optimized for restricted networks. Supports authentication, deduplication, and more.",
 };
 
 export default function RootLayout({

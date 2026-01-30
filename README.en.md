@@ -138,6 +138,10 @@ GOOS=linux GOARCH=amd64 go run ./backend/main.go
 
 Ensure Docker is available to the backend (socket mount if running in a container).
 
+## Deployment
+
+The service is deployed at [docker-mirror.thinkmeta.site](http://docker-mirror.thinkmeta.site). Experience fast and reliable Docker image downloads, even in restricted network environments.
+
 ## License
 
 No license specified yet. For open-source distribution, add one (MIT, Apache-2.0, etc.).
